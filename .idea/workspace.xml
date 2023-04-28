@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d039e3f5-9275-4f67-b67b-608b21595750" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiCartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiCatalogTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/extentsion/ApiTestExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api_additional/ApiAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api_additional/ApiBookingTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/api_additional/extentsion/ApiTestExtension.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2P0kJOWQu9Lik3O2lI1SSxo2L59" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/учеба/java_autotests/src/test/java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nexign_autotests.api.extention" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\учеба\java_autotests\src\test\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiBookingTests.deleteBookingTest">
+    <configuration name="ApiBookingTests$ApiRegisterTest.deleteBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexign_autotests.api_additional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexign_autotests.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="deleteBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiBookingTests$ApiRegisterTest.partialUpdateBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexign_autotests.api_additional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexign_autotests.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="partialUpdateBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiBookingTests.deleteBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexign_autotests.api_additional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexign_autotests.api_additional" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.api_additional.ApiBookingTests" />
+      <option name="METHOD_NAME" value="deleteBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiBookingTests.partialUpdateBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexign_autotests.api_additional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexign_autotests.api_additional" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.api_additional.ApiBookingTests" />
+      <option name="METHOD_NAME" value="partialUpdateBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiBookingTests.updateBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexign_autotests.api_additional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexign_autotests.api_additional" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.api_additional.ApiBookingTests" />
+      <option name="METHOD_NAME" value="updateBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiBookingTests.deleteBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.deleteBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.partialUpdateBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests.partialUpdateBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests.updateBookingTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d039e3f5-9275-4f67-b67b-608b21595750" name="Changes" comment="" />
+      <created>1682601322721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682601322721</updated>
+    </task>
+    <servers />
+  </component>
+</project>
