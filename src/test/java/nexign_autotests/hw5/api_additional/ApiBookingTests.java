@@ -1,7 +1,7 @@
-package nexign_autotests.api_additional;
+package nexign_autotests.hw5.api_additional;
 
 import com.github.javafaker.Faker;
-import nexign_autotests.api_additional.extentsion.ApiTestExtension;
+import nexign_autotests.hw5.api_additional.extentsion.ApiTestExtension;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -74,7 +74,7 @@ public class ApiBookingTests {
 
     @Nested
     @DisplayName("../booking зависимые от токена")
-    @ExtendWith(nexign_autotests.api.extentsion.ApiTestExtension.class)
+    @ExtendWith(nexign_autotests.hw5.api.extentsion.ApiTestExtension.class)
     public class ApiRegisterTest {
         String userFirstName;
         String userName = "admin";

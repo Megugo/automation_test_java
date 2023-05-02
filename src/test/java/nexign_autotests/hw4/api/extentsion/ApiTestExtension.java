@@ -1,4 +1,4 @@
-package nexign_autotests.api.extentsion;
+package nexign_autotests.hw4.api.extentsion;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;

@@ -1,6 +1,6 @@
-package nexign_autotests.api;
+package nexign_autotests.hw4.api;
 
-import nexign_autotests.api.extentsion.ApiTestExtension;
+import nexign_autotests.hw4.api.extentsion.ApiTestExtension;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

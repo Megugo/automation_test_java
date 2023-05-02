@@ -1,9 +1,9 @@
-package nexign_autotests.api;
+package nexign_autotests.hw5.api;
 
 import com.github.javafaker.Faker;
 import io.restassured.http.Header;
 import io.restassured.path.json.JsonPath;
-import nexign_autotests.api.extentsion.ApiTestExtension;
+import nexign_autotests.hw5.api.extentsion.ApiTestExtension;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

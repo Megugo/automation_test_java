@@ -1,8 +1,7 @@
-package nexign_autotests.api_additional;
+package nexign_autotests.hw5.api_additional;
 
 
-import nexign_autotests.api_additional.extentsion.ApiTestExtension;
-import com.github.javafaker.Faker;
+import nexign_autotests.hw5.api_additional.extentsion.ApiTestExtension;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
