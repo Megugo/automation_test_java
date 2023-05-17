@@ -5,33 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d039e3f5-9275-4f67-b67b-608b21595750" name="Changes" comment="create Tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiAuthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCatalogTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiAuthRegisterEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiCatalogEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiOrderEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiUserEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/BaseEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/Endpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/extentsion/ApiTestExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/ApiAuthTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/ApiBookingTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/extentsion/ApiTestExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiCartEndoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiLoginEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api/ApiAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api/ApiCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiCatalogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api/ApiCatalogTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/ApiUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api/ApiUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api/extentsion/ApiTestExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api/extentsion/ApiTestExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api_additional/ApiAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api_additional/ApiAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api_additional/ApiBookingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api_additional/ApiBookingTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/api_additional/extentsion/ApiTestExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw4/api_additional/extentsion/ApiTestExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/OrderDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/Tags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiUserEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiUserEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeSerializer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,14 +42,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/учеба/tarification-system",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/учеба/tarification-system&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="nexign_autotests.hw5.api.serializers" />
@@ -78,8 +63,8 @@
       <recent name="nexign_autotests.hw5.api.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiAuthTest$ApiLoginTests.loginNotExistUserTest">
-    <configuration name="ApiAuthTest$ApiLoginTests.loginNotExistUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiCartTest$ApiRegisterTests.unsuccessfulDeleteItemFromCartWithoutAuthTest">
+    <configuration name="ApiCartTest$ApiRegisterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
@@ -87,15 +72,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api.ApiAuthTest" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiAuthTest$ApiLoginTests" />
-      <option name="METHOD_NAME" value="loginNotExistUserTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest$ApiRegisterTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiAuthTest$ApiLoginTests.loginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiCartTest$ApiRegisterTests.unsuccessfulDeleteItemFromCartWithoutAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
@@ -103,15 +87,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api.ApiAuthTest" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiAuthTest$ApiLoginTests" />
-      <option name="METHOD_NAME" value="loginUserTest" />
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest$ApiRegisterTests" />
+      <option name="METHOD_NAME" value="unsuccessfulDeleteItemFromCartWithoutAuthTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCatalogTest.GetCatalogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiCartTest.ClearCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +104,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCatalogTest" />
-      <option name="METHOD_NAME" value="GetCatalogTest" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
+      <option name="METHOD_NAME" value="ClearCartTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiOrderTest.orderSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiCartTest.ClearCartWithoutAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +120,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiOrderTest" />
-      <option name="METHOD_NAME" value="orderSuccessfulTest" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
+      <option name="METHOD_NAME" value="ClearCartWithoutAuthTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiUserTest.successGetUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiCartTest.DeleteFromCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +136,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiUserTest" />
-      <option name="METHOD_NAME" value="successGetUserTest" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
+      <option name="METHOD_NAME" value="DeleteFromCartTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiAuthTest$ApiLoginTests.loginNotExistUserTest" />
-        <item itemvalue="JUnit.ApiOrderTest.orderSuccessfulTest" />
-        <item itemvalue="JUnit.ApiAuthTest$ApiLoginTests.loginUserTest" />
-        <item itemvalue="JUnit.ApiUserTest.successGetUserTest" />
-        <item itemvalue="JUnit.ApiCatalogTest.GetCatalogTest" />
+        <item itemvalue="JUnit.ApiCartTest$ApiRegisterTests.unsuccessfulDeleteItemFromCartWithoutAuthTest" />
+        <item itemvalue="JUnit.ApiCartTest$ApiRegisterTests" />
+        <item itemvalue="JUnit.ApiCartTest.ClearCartWithoutAuthTest" />
+        <item itemvalue="JUnit.ApiCartTest.ClearCartTest" />
+        <item itemvalue="JUnit.ApiCartTest.DeleteFromCartTest" />
       </list>
     </recent_temporary>
   </component>

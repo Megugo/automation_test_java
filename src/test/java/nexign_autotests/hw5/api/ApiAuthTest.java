@@ -4,6 +4,7 @@ package nexign_autotests.hw5.api;
 import com.github.javafaker.Faker;
 import nexign_autotests.hw5.api.dto.UserDto;
 import nexign_autotests.hw5.api.endpoints.ApiAuthRegisterEndpoint;
+import nexign_autotests.hw5.api.endpoints.ApiLoginEndpoint;
 import nexign_autotests.hw5.api.extentsion.ApiTestExtension;
 import org.assertj.core.api.SoftAssertions;
 import org.hamcrest.Matchers;
@@ -90,18 +91,13 @@ public class ApiAuthTest {
         UserDto userDto;
         @BeforeEach
         void createUser(){
-
             userDto = successfulCreateUserRequests().findFirst().orElseThrow();
-
-
-            given()
-                    .body(userDto)
-                    .post(new ApiAuthRegisterEndpoint().getEndpoint());
+            new ApiAuthRegisterEndpoint().registerNewUser(userDto);
         }
         @Test
         @DisplayName("/auth/login: 200, успешное вход юзера")
         void loginUserTest(){
-            UserDto actualUser = new ApiAuthRegisterEndpoint().registerNewUser(userDto);
+            UserDto actualUser = new ApiLoginEndpoint().loginUser(userDto);
 
             SoftAssertions softAssertions = new SoftAssertions();
 
@@ -121,34 +117,36 @@ public class ApiAuthTest {
         }
 
         @Test
+        @DisplayName("/auth/login: 401, вход под неверными кредами (пароль=логин)")
+        void loginInvalidUserTest(){
+            userDto.setPassword(userDto.getUsername());
+
+            given()
+                    .body(userDto)
+                    .post(new ApiLoginEndpoint().getEndpoint())
+                    .then()
+                    .statusCode(401)
+                    .body("message", Matchers.equalTo("Invalid credentials"));
+
+        }
+
+
+
+
+        @Test
         @DisplayName("/auth/login: 401, вход под несуществующими кредами")
         void loginNotExistUserTest(){
+            userDto = ApiAuthTest.successfulCreateUserRequests().findFirst().orElseThrow();
             given()
-                    .body("{\n" +
-                            "  \"password\": \""+userDto.getPassword()+"\",\n" +
-                            "  \"username\": \""+userDto.getUsername()+"\"\n" +
-                            "}")
-                    .post("/auth/login")
+                    .body(userDto)
+                    .post(new  ApiLoginEndpoint().getEndpoint())
                     .then()
                     .statusCode(401)
                     .body("message", Matchers.equalTo("No user found"));
 
         }
 
-        @Test
-        @DisplayName("/auth/login: 401, вход под неверными кредами (пароль=логин)")
-        void loginInvalidUserTest(){
-            given()
-                    .body("{\n" +
-                            "  \"password\": \""+userDto.getPassword()+"\",\n" +
-                            "  \"username\": \""+userDto.getPassword()+"\"\n" +
-                            "}")
-                    .post("/auth/login")
-                    .then()
-                    .statusCode(401)
-                    .body("message", Matchers.equalTo("Invalid credentials"));
 
-        }
     }
 }
 

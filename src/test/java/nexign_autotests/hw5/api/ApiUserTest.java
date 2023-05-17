@@ -20,12 +20,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @ExtendWith(ApiTestExtension.class)
 public class ApiUserTest {
 
-    JsonPath jsonData;
-    String userName;
-    String userPassword;
-    String userAddress;
-    String userPhone;
-    String userMail;
     UserDto userDto;
 
     @BeforeEach
@@ -45,53 +39,22 @@ public class ApiUserTest {
     @DisplayName("PUT ../api/user: 200, изменение юзера")
     void changeUserTest(){
         Faker faker = new Faker();
-        userName = faker.name().fullName();
-        userPassword = faker.internet().password();
-        userAddress = faker.address().fullAddress();
-        userPhone = faker.phoneNumber().phoneNumber();
-        userMail = faker.internet().emailAddress();
+        userDto.setUsername(faker.name().username());
 
+        assertThat(new ApiUserEndpoint().putUser(userDto).getString("message"))
+                .isEqualTo("User updated");
 
-        given()
-                .header(new Header("Authorization","Bearer "+userDto.getToken()))
-                .body("{\n" +
-                        "  \"address\": \""+userAddress+"\",\n" +
-                        "  \"email\": \""+userMail+"\",\n" +
-                        "  \"id\": \""+jsonData.getString("id")+"\",\n" +
-                        "  \"orders\": "+jsonData.getString("orders")+",\n" +
-                        "  \"password\": \""+jsonData.getString("password")+"\",\n" +
-                        "  \"phone\": \""+userPhone+"\",\n" +
-                        "  \"token\": \""+jsonData.getString("token")+"\",\n" +
-                        "  \"username\": \""+userName+"\"\n" +
-                        "}")
-                .put("/user")
-                .then()
-                .statusCode(200)
-                .body("message", Matchers.equalTo("User updated"));
     }
 
     @Test
     @DisplayName("PUT ..api/user: 403, изменение пользователя без авторизации")
     void changeUserNotAuthTest(){
         Faker faker = new Faker();
-        userName = faker.name().fullName();
-        userPassword = faker.internet().password();
-        userAddress = faker.address().fullAddress();
-        userPhone = faker.phoneNumber().phoneNumber();
-        userMail = faker.internet().emailAddress();
+        userDto = ApiAuthTest.successfulCreateUserRequests().findFirst().orElseThrow();
 
         given()
-                .body("{\n" +
-                        "  \"address\": \""+userAddress+"\",\n" +
-                        "  \"email\": \""+userMail+"\",\n" +
-                        "  \"id\": \""+jsonData.getString("id")+"\",\n" +
-                        "  \"orders\": "+jsonData.getString("orders")+",\n" +
-                        "  \"password\": \""+jsonData.getString("password")+"\",\n" +
-                        "  \"phone\": \""+userPhone+"\",\n" +
-                        "  \"token\": \""+jsonData.getString("token")+"\",\n" +
-                        "  \"username\": \""+userName+"\"\n" +
-                        "}")
-                .put("/user")
+                .body(userDto)
+                .put(new ApiUserEndpoint().getEndpoint())
                 .then()
                 .statusCode(403);
     }

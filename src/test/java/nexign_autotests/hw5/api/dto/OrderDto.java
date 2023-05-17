@@ -12,6 +12,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class OrderDto{
 
-	@JsonProperty("order")
-	private Order order;
+    @JsonProperty("order")
+    private Order order;
 }
