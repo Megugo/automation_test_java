@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d039e3f5-9275-4f67-b67b-608b21595750" name="Changes" comment="create Tests">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiCartEndoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiLoginEndpoint.java" afterDir="false" />
+    <list default="true" id="d039e3f5-9275-4f67-b67b-608b21595750" name="Changes" comment="add Cart tests, CartDto">
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/endpoints/ApiAuthEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/endpoints/ApiBookingEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/endpoints/BaseEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/endpoints/Endpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/generator/DtosGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/serializers/LocalDateTimeDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/serializers/LocalDateTimeSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiAuthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/OrderDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/OrderDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/Tags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/dto/Tags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiUserEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/endpoints/ApiUserEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeDeserializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/serializers/LocalDateTimeSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCatalogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api/ApiCatalogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/ApiAuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/ApiAuthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/ApiBookingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/nexign_autotests/hw5/api_additional/ApiBookingTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,81 +62,82 @@
       <recent name="nexign_autotests.hw5.api.endpoints" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ApiCartTest$ApiRegisterTests.unsuccessfulDeleteItemFromCartWithoutAuthTest">
-    <configuration name="ApiCartTest$ApiRegisterTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiBookingTests$ApiRegisterTest.unsuccessfulUpdateBookingWrongIdTest">
+    <configuration name="ApiBookingTests$ApiRegisterTest.deleteBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nexign_autotests.hw5.api.*" />
+          <option name="PATTERN" value="nexign_autotests.hw5.api_additional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest$ApiRegisterTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiCartTest$ApiRegisterTests.unsuccessfulDeleteItemFromCartWithoutAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java_autotests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nexign_autotests.hw5.api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest$ApiRegisterTests" />
-      <option name="METHOD_NAME" value="unsuccessfulDeleteItemFromCartWithoutAuthTest" />
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="deleteBookingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCartTest.ClearCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiBookingTests$ApiRegisterTest.partialUpdateBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nexign_autotests.hw5.api.*" />
+          <option name="PATTERN" value="nexign_autotests.hw5.api_additional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
-      <option name="METHOD_NAME" value="ClearCartTest" />
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="partialUpdateBookingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCartTest.ClearCartWithoutAuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiBookingTests$ApiRegisterTest.unsuccessfulDeleteBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nexign_autotests.hw5.api.*" />
+          <option name="PATTERN" value="nexign_autotests.hw5.api_additional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
-      <option name="METHOD_NAME" value="ClearCartWithoutAuthTest" />
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="unsuccessfulDeleteBookingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCartTest.DeleteFromCartTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiBookingTests$ApiRegisterTest.unsuccessfulDeleteWrongIdBookingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java_autotests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="nexign_autotests.hw5.api.*" />
+          <option name="PATTERN" value="nexign_autotests.hw5.api_additional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api" />
-      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api.ApiCartTest" />
-      <option name="METHOD_NAME" value="DeleteFromCartTest" />
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="unsuccessfulDeleteWrongIdBookingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiBookingTests$ApiRegisterTest.unsuccessfulUpdateBookingWrongIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_autotests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nexign_autotests.hw5.api_additional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests" />
+      <option name="MAIN_CLASS_NAME" value="nexign_autotests.hw5.api_additional.ApiBookingTests$ApiRegisterTest" />
+      <option name="METHOD_NAME" value="unsuccessfulUpdateBookingWrongIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiCartTest$ApiRegisterTests.unsuccessfulDeleteItemFromCartWithoutAuthTest" />
-        <item itemvalue="JUnit.ApiCartTest$ApiRegisterTests" />
-        <item itemvalue="JUnit.ApiCartTest.ClearCartWithoutAuthTest" />
-        <item itemvalue="JUnit.ApiCartTest.ClearCartTest" />
-        <item itemvalue="JUnit.ApiCartTest.DeleteFromCartTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.unsuccessfulUpdateBookingWrongIdTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.unsuccessfulDeleteWrongIdBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.unsuccessfulDeleteBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.deleteBookingTest" />
+        <item itemvalue="JUnit.ApiBookingTests$ApiRegisterTest.partialUpdateBookingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,11 +180,27 @@
       <option name="project" value="LOCAL" />
       <updated>1682710637193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor Api tests for Mobile Shop">
+      <created>1684348541991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684348541991</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add Cart tests, CartDto">
+      <created>1684414631765</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684414631765</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Tests" />
+    <MESSAGE value="refactor Api tests for Mobile Shop" />
+    <MESSAGE value="add Cart tests, CartDto" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Cart tests, CartDto" />
   </component>
 </project>

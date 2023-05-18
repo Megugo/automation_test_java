@@ -1,31 +1,29 @@
 package nexign_autotests.hw5.api_additional;
 
 
+import nexign_autotests.hw5.api_additional.dto.AuthDto;
+import nexign_autotests.hw5.api_additional.endpoints.ApiAuthEndpoint;
 import nexign_autotests.hw5.api_additional.extentsion.ApiTestExtension;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 import static io.restassured.RestAssured.given;
 @DisplayName("POST ../auth")
 @ExtendWith(ApiTestExtension.class)
 public class ApiAuthTest {
     @Test
-    @DisplayName("/auth : 200, успешное создание юзера")
+    @DisplayName("/auth : 200, получение токена")
     void authTest(){
-        String userName = "admin";
-        String userPassword = "password123";
 
-        given()
-                .body("{\n" +
-                        "    \"username\" : \""+userName+"\",\n" +
-                        "    \"password\" : \""+userPassword+"\"\n" +
-                        "}")
-                .post("/auth")
-                .then()
-                .statusCode(200)
-                .body("token",Matchers.notNullValue());
+        assertThat(new ApiAuthEndpoint().getToken(AuthDto.builder()
+                .username("admin")
+                .password("password123")
+                .build())).isNotEmpty();
+
     }
 }
 
